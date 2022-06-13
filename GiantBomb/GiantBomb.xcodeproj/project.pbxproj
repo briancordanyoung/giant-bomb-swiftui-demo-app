@@ -1,0 +1,663 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D330364B28568D11002641A6 /* GiantBombApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D330364A28568D11002641A6 /* GiantBombApp.swift */; };
+		D330364D28568D11002641A6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D330364C28568D11002641A6 /* ContentView.swift */; };
+		D330364F28568D13002641A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D330364E28568D13002641A6 /* Assets.xcassets */; };
+		D330365228568D13002641A6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D330365128568D13002641A6 /* Preview Assets.xcassets */; };
+		D330365D28568D13002641A6 /* GiantBombTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D330365C28568D13002641A6 /* GiantBombTests.swift */; };
+		D330366728568D13002641A6 /* GiantBombUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D330366628568D13002641A6 /* GiantBombUITests.swift */; };
+		D330366928568D13002641A6 /* GiantBombUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D330366828568D13002641A6 /* GiantBombUITestsLaunchTests.swift */; };
+		D330367628568DC2002641A6 /* GiantBombClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D330367528568DC2002641A6 /* GiantBombClient.swift */; };
+		D33036782856A0D4002641A6 /* GameResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33036772856A0D4002641A6 /* GameResponse.swift */; };
+		D330367A2856A1C4002641A6 /* GiantBombClient+Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33036792856A1C4002641A6 /* GiantBombClient+Types.swift */; };
+		D330367C2856A34F002641A6 /* SearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D330367B2856A34F002641A6 /* SearchResponse.swift */; };
+		D330367E2856AB1B002641A6 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = D330367D2856AB1B002641A6 /* Common.swift */; };
+		D33036822856AECC002641A6 /* ResultList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33036812856AECC002641A6 /* ResultList.swift */; };
+		D33036852856AF1D002641A6 /* GameRental.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33036842856AF1D002641A6 /* GameRental.swift */; };
+		D33036872856B3C0002641A6 /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33036862856B3C0002641A6 /* SearchController.swift */; };
+		D33036972856D3F2002641A6 /* RentalController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33036962856D3F2002641A6 /* RentalController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D330365928568D13002641A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D330363F28568D11002641A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D330364628568D11002641A6;
+			remoteInfo = GiantBomb;
+		};
+		D330366328568D13002641A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D330363F28568D11002641A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D330364628568D11002641A6;
+			remoteInfo = GiantBomb;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D330364728568D11002641A6 /* GiantBomb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GiantBomb.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D330364A28568D11002641A6 /* GiantBombApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiantBombApp.swift; sourceTree = "<group>"; };
+		D330364C28568D11002641A6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D330364E28568D13002641A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D330365128568D13002641A6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D330365328568D13002641A6 /* GiantBomb.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GiantBomb.entitlements; sourceTree = "<group>"; };
+		D330365828568D13002641A6 /* GiantBombTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GiantBombTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D330365C28568D13002641A6 /* GiantBombTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiantBombTests.swift; sourceTree = "<group>"; };
+		D330366228568D13002641A6 /* GiantBombUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GiantBombUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D330366628568D13002641A6 /* GiantBombUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiantBombUITests.swift; sourceTree = "<group>"; };
+		D330366828568D13002641A6 /* GiantBombUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiantBombUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D330367528568DC2002641A6 /* GiantBombClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiantBombClient.swift; sourceTree = "<group>"; };
+		D33036772856A0D4002641A6 /* GameResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameResponse.swift; sourceTree = "<group>"; };
+		D33036792856A1C4002641A6 /* GiantBombClient+Types.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GiantBombClient+Types.swift"; sourceTree = "<group>"; };
+		D330367B2856A34F002641A6 /* SearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResponse.swift; sourceTree = "<group>"; };
+		D330367D2856AB1B002641A6 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		D33036812856AECC002641A6 /* ResultList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultList.swift; sourceTree = "<group>"; };
+		D33036842856AF1D002641A6 /* GameRental.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameRental.swift; sourceTree = "<group>"; };
+		D33036862856B3C0002641A6 /* SearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchController.swift; sourceTree = "<group>"; };
+		D33036922856CFB6002641A6 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		D33036942856CFC9002641A6 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		D33036962856D3F2002641A6 /* RentalController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentalController.swift; sourceTree = "<group>"; };
+		D33036982856DD97002641A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D330364428568D11002641A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D330365528568D13002641A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D330365F28568D13002641A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D330363E28568D11002641A6 = {
+			isa = PBXGroup;
+			children = (
+				D330364928568D11002641A6 /* GiantBomb */,
+				D330365B28568D13002641A6 /* GiantBombTests */,
+				D330366528568D13002641A6 /* GiantBombUITests */,
+				D330364828568D11002641A6 /* Products */,
+				D33036912856CFB6002641A6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D330364828568D11002641A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D330364728568D11002641A6 /* GiantBomb.app */,
+				D330365828568D13002641A6 /* GiantBombTests.xctest */,
+				D330366228568D13002641A6 /* GiantBombUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D330364928568D11002641A6 /* GiantBomb */ = {
+			isa = PBXGroup;
+			children = (
+				D33036982856DD97002641A6 /* Info.plist */,
+				D33036832856AED7002641A6 /* Views */,
+				D330364E28568D13002641A6 /* Assets.xcassets */,
+				D330365328568D13002641A6 /* GiantBomb.entitlements */,
+				D330365028568D13002641A6 /* Preview Content */,
+				D33036802856AB37002641A6 /* Client */,
+				D33036862856B3C0002641A6 /* SearchController.swift */,
+				D33036962856D3F2002641A6 /* RentalController.swift */,
+			);
+			path = GiantBomb;
+			sourceTree = "<group>";
+		};
+		D330365028568D13002641A6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D330365128568D13002641A6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D330365B28568D13002641A6 /* GiantBombTests */ = {
+			isa = PBXGroup;
+			children = (
+				D330365C28568D13002641A6 /* GiantBombTests.swift */,
+			);
+			path = GiantBombTests;
+			sourceTree = "<group>";
+		};
+		D330366528568D13002641A6 /* GiantBombUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D330366628568D13002641A6 /* GiantBombUITests.swift */,
+				D330366828568D13002641A6 /* GiantBombUITestsLaunchTests.swift */,
+			);
+			path = GiantBombUITests;
+			sourceTree = "<group>";
+		};
+		D330367F2856AB28002641A6 /* ResponsesTypes */ = {
+			isa = PBXGroup;
+			children = (
+				D33036772856A0D4002641A6 /* GameResponse.swift */,
+				D330367B2856A34F002641A6 /* SearchResponse.swift */,
+				D330367D2856AB1B002641A6 /* Common.swift */,
+			);
+			path = ResponsesTypes;
+			sourceTree = "<group>";
+		};
+		D33036802856AB37002641A6 /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				D330367528568DC2002641A6 /* GiantBombClient.swift */,
+				D33036792856A1C4002641A6 /* GiantBombClient+Types.swift */,
+				D330367F2856AB28002641A6 /* ResponsesTypes */,
+			);
+			path = Client;
+			sourceTree = "<group>";
+		};
+		D33036832856AED7002641A6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D330364A28568D11002641A6 /* GiantBombApp.swift */,
+				D330364C28568D11002641A6 /* ContentView.swift */,
+				D33036812856AECC002641A6 /* ResultList.swift */,
+				D33036842856AF1D002641A6 /* GameRental.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D33036912856CFB6002641A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D33036942856CFC9002641A6 /* AVKit.framework */,
+				D33036922856CFB6002641A6 /* AppKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D330364628568D11002641A6 /* GiantBomb */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D330366C28568D13002641A6 /* Build configuration list for PBXNativeTarget "GiantBomb" */;
+			buildPhases = (
+				D330364328568D11002641A6 /* Sources */,
+				D330364428568D11002641A6 /* Frameworks */,
+				D330364528568D11002641A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GiantBomb;
+			packageProductDependencies = (
+			);
+			productName = GiantBomb;
+			productReference = D330364728568D11002641A6 /* GiantBomb.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D330365728568D13002641A6 /* GiantBombTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D330366F28568D13002641A6 /* Build configuration list for PBXNativeTarget "GiantBombTests" */;
+			buildPhases = (
+				D330365428568D13002641A6 /* Sources */,
+				D330365528568D13002641A6 /* Frameworks */,
+				D330365628568D13002641A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D330365A28568D13002641A6 /* PBXTargetDependency */,
+			);
+			name = GiantBombTests;
+			productName = GiantBombTests;
+			productReference = D330365828568D13002641A6 /* GiantBombTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D330366128568D13002641A6 /* GiantBombUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D330367228568D13002641A6 /* Build configuration list for PBXNativeTarget "GiantBombUITests" */;
+			buildPhases = (
+				D330365E28568D13002641A6 /* Sources */,
+				D330365F28568D13002641A6 /* Frameworks */,
+				D330366028568D13002641A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D330366428568D13002641A6 /* PBXTargetDependency */,
+			);
+			name = GiantBombUITests;
+			productName = GiantBombUITests;
+			productReference = D330366228568D13002641A6 /* GiantBombUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D330363F28568D11002641A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					D330364628568D11002641A6 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					D330365728568D13002641A6 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = D330364628568D11002641A6;
+					};
+					D330366128568D13002641A6 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = D330364628568D11002641A6;
+					};
+				};
+			};
+			buildConfigurationList = D330364228568D11002641A6 /* Build configuration list for PBXProject "GiantBomb" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D330363E28568D11002641A6;
+			packageReferences = (
+			);
+			productRefGroup = D330364828568D11002641A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D330364628568D11002641A6 /* GiantBomb */,
+				D330365728568D13002641A6 /* GiantBombTests */,
+				D330366128568D13002641A6 /* GiantBombUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D330364528568D11002641A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D330365228568D13002641A6 /* Preview Assets.xcassets in Resources */,
+				D330364F28568D13002641A6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D330365628568D13002641A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D330366028568D13002641A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D330364328568D11002641A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D330364D28568D11002641A6 /* ContentView.swift in Sources */,
+				D33036872856B3C0002641A6 /* SearchController.swift in Sources */,
+				D330364B28568D11002641A6 /* GiantBombApp.swift in Sources */,
+				D330367E2856AB1B002641A6 /* Common.swift in Sources */,
+				D330367C2856A34F002641A6 /* SearchResponse.swift in Sources */,
+				D33036782856A0D4002641A6 /* GameResponse.swift in Sources */,
+				D33036972856D3F2002641A6 /* RentalController.swift in Sources */,
+				D330367A2856A1C4002641A6 /* GiantBombClient+Types.swift in Sources */,
+				D33036852856AF1D002641A6 /* GameRental.swift in Sources */,
+				D33036822856AECC002641A6 /* ResultList.swift in Sources */,
+				D330367628568DC2002641A6 /* GiantBombClient.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D330365428568D13002641A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D330365D28568D13002641A6 /* GiantBombTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D330365E28568D13002641A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D330366928568D13002641A6 /* GiantBombUITestsLaunchTests.swift in Sources */,
+				D330366728568D13002641A6 /* GiantBombUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D330365A28568D13002641A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D330364628568D11002641A6 /* GiantBomb */;
+			targetProxy = D330365928568D13002641A6 /* PBXContainerItemProxy */;
+		};
+		D330366428568D13002641A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D330364628568D11002641A6 /* GiantBomb */;
+			targetProxy = D330366328568D13002641A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D330366A28568D13002641A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D330366B28568D13002641A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		D330366D28568D13002641A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GiantBomb/GiantBomb.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GiantBomb/Preview Content\"";
+				DEVELOPMENT_TEAM = YJ4PN236TF;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GiantBomb/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.briancordanyoung.GiantBomb;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D330366E28568D13002641A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GiantBomb/GiantBomb.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GiantBomb/Preview Content\"";
+				DEVELOPMENT_TEAM = YJ4PN236TF;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GiantBomb/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.briancordanyoung.GiantBomb;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D330367028568D13002641A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YJ4PN236TF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.briancordanyoung.GiantBombTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GiantBomb.app/Contents/MacOS/GiantBomb";
+			};
+			name = Debug;
+		};
+		D330367128568D13002641A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YJ4PN236TF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.briancordanyoung.GiantBombTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GiantBomb.app/Contents/MacOS/GiantBomb";
+			};
+			name = Release;
+		};
+		D330367328568D13002641A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YJ4PN236TF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.briancordanyoung.GiantBombUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = GiantBomb;
+			};
+			name = Debug;
+		};
+		D330367428568D13002641A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YJ4PN236TF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.briancordanyoung.GiantBombUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = GiantBomb;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D330364228568D11002641A6 /* Build configuration list for PBXProject "GiantBomb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D330366A28568D13002641A6 /* Debug */,
+				D330366B28568D13002641A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D330366C28568D13002641A6 /* Build configuration list for PBXNativeTarget "GiantBomb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D330366D28568D13002641A6 /* Debug */,
+				D330366E28568D13002641A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D330366F28568D13002641A6 /* Build configuration list for PBXNativeTarget "GiantBombTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D330367028568D13002641A6 /* Debug */,
+				D330367128568D13002641A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D330367228568D13002641A6 /* Build configuration list for PBXNativeTarget "GiantBombUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D330367328568D13002641A6 /* Debug */,
+				D330367428568D13002641A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D330363F28568D11002641A6 /* Project object */;
+}
